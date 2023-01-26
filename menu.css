@@ -1,0 +1,44 @@
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+       }
+a:link:hover, a:visited:hover {
+    color: red;
+             }
+#a {
+  border-radius: 10px;
+  background-color: #C0C0C0;
+  font-family: Arial;
+  font-weight: 700;
+  border: 2px solid #FF0000;
+  transition: border 0.2s linear;
+  position :relative;
+  height: 40;
+  width: 222;
+}
+
+#a:hover {
+  border: 5px solid #FF0000;
+}
+
+
+img {position: absolute;
+top: 6px; left: 3px;}
+
+#b {
+  border-radius: 10px;
+  background-color: #C0C0C0;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: 1000;
+  border: 2px solid #FF0000;
+  position :relative;
+  height: 75;
+  width: 100;
+  float: right;
+  }
+
+p {
+  margin-top:   10px;
+  margin-left: 30px;
+}
